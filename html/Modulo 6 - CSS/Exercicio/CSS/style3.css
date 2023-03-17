@@ -1,0 +1,185 @@
+ /* Arqui CSS geral com estilos e elementos de todas as paginas*/
+
+* 
+{
+ box-sizing: border-box;
+}
+
+
+html 
+{
+	margin: 0;
+	padding: 0;	
+	font-size: 62.5%; /*equivalente a 10 px*/ 
+}
+
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color:#FFC0CB; 
+}
+
+a {
+	color: #FFC0CB;
+}
+
+ul {
+	background-color: #DB7093;
+	font-size: 20px;
+}
+
+ul li {
+	font-size: 1.5em; /*equivalente a 16px = 20% de 20px*/
+	height: 3rem;
+	border: 1em;
+}
+
+form div {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: yellow;
+	margin-bottom: 10px;
+}
+
+[type="Nome"],[type="E-mail"], 
+text area {width: 100%};
+
+input{
+	padding: 1rem;
+}
+
+
+
+p {
+	font-size: 1.6rem;
+	color: #00BFBF;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5rem;
+	color: #00BFBF;
+}
+
+h1 {
+	font-size: 4rem;
+	color: #00BFBF;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 2rem;
+	color: #00BFBF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+
+header 
+{
+ background-color:#DB7093; 
+ padding: 10px;
+ text-align: center;
+ font-size: 35px;
+ color: white;
+}
+
+		
+nav 
+{
+ float: left ;
+ width: 20%;
+			   
+ background:#FFC0CB;
+ padding: 10px;
+ border: 2px solid #DB7093;
+ margin-top: 10px;
+
+}
+
+
+nav ul 
+{
+ list-style-type: none;
+ font-size: 15px;
+ text-align: left;	
+ padding: 20px;
+
+
+}
+
+article 
+{
+ 
+ float:right;
+ font-size: 15px;
+ text-align: center;
+ padding: 10px,50px,10px,50px;
+ color: black;
+ width: 70%;
+ background-color:#DB7093;
+ margin-right: 0px; 
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border: 2px solid  #DB7093;
+
+}
+
+img {
+	padding: 10px;
+	border: 2px solid #DB7093;
+	
+}
+			
+form 
+{
+ float: left;
+ padding: 20px;
+ width: 100%;
+ background-color:green;
+
+}
+
+label 
+{
+	font-size: 3rem;
+	margin-bottom: 0.8rem;
+	font-weight: bold;
+	display: block;
+}
+
+
+			
+section 
+{
+  background: #FFC0CB;
+  display: table;
+  clear: both;
+  width: 100%;
+
+}
+
+		
+footer 
+{
+  background-color: #DB7093;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  text size: 7px;
+  align-items: center;
+}
+
+	
+/* 
+	Top ( cima)	
+	Bootom (baixo)		
+	left ( esquerda)
+	rigth( direita)
+
+*/	

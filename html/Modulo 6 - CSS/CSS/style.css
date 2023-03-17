@@ -1,0 +1,208 @@
+ /* Arqui CSS geral com estilos e elementos de todas as paginas*/
+
+* 
+{
+ box-sizing: border-box;
+}
+
+
+html 
+{
+	margin: 0;
+	padding: 0;	
+	font-size: 62.5%; /*equivalente a 10 px*/ 
+}
+
+
+body 
+{
+ font-family: Arial, Helvetica, sans-serif;
+ background-color:#DCDCDC; 
+}
+
+a 
+{
+	color: gray;
+
+}
+
+a:hover{
+	background-color:#A9A9A9 ;
+}
+
+}
+
+
+}
+
+ul {
+	background-color: #A9A9A9 ;
+	font-size: 20px;
+}
+
+ul li {
+
+	font-size: 1em; /*equivalente a 16px = 20% de 20px*/
+	height: 3rem;
+	border: 1em;
+
+
+}
+
+form div {
+
+	padding: 10px;
+	margin: 10px;
+	border-bottom: 1px solid black;
+	
+	background-color: #DCDCDC;
+	margin-bottom: 10px;
+}
+
+[type="text"],[name=Mensagem]
+text area {width: 100%};
+
+
+p {
+	font-size: 1.6rem;
+  }
+
+
+h1 {
+	font-size: 5rem;
+	color: #808080;
+
+   }
+
+h2 {
+	font-size: 2rem;
+	color: #808080;
+		}
+
+h3 {
+	font-size: 2rem;
+	color: #808080;
+	margin: 0;
+		}
+
+
+
+header 
+{
+ background-color:#A9A9A9; 
+ padding: 10px;
+ text-align: center;
+ font-size: 35px;
+ color: white;
+}
+
+		
+nav 
+{
+ float: left ;
+ width: 20%;
+
+ padding: 10px;
+
+}
+
+
+nav ul 
+{
+ list-style-type: none;
+ font-size: 15px;
+ text-align: left;	
+ padding: 10px;
+ margin: 0;
+
+}
+
+
+
+article 
+{
+ 
+ float: left;
+ font-size: 15px;
+ text-align: left;
+ padding: 20px;
+
+ color: black;
+ width: 75%;
+ background-color:#DCDCDC;
+}
+
+.page1{
+	float: center;			
+	width: 60%;
+	border: 3px solid #A9A9A9;
+	margin-top: 20px;
+}
+			
+form 
+{
+ padding: 10px;
+ width: 80%;
+ border: 3px solid #A9A9A9;
+}
+
+input {
+
+	padding: 1rem;
+	padding: 10px;
+	margin-left: 10px;
+ }
+
+select {
+
+	margin-left: 10px;
+
+}
+
+.escolha{
+	margin-bottom: 20px;
+}
+
+label 
+{
+	font-size: 1.4rem;	
+	font-weight: bold;
+	margin-left: 10px;
+	display: block;
+	
+}
+
+[type="submit"]{
+
+padding: 4px;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+textarea {
+	margin-left: 10px;
+}
+
+			
+section 
+{
+  background: #DCDCDC;
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+		
+footer 
+{
+  background-color: #A9A9A9;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  text size: 7px;
+  align-items: center;
+}
+
+		
+			

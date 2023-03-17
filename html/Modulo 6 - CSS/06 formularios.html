@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  <!--Adequa o Layout as margens do celular -->
+	<title>Aritgo</title>
+	<link rel="stylesheet" type="text/css" href="./CSS/style.css">
+</head>
+
+<body>
+
+	<header>  <!-- utlizado dentro do body, para demarcar cabeçalho -->
+		
+		<h1>Fale conosco</h1>
+
+	</header>		
+
+		<section  >
+		
+		 	<nav> <!-- navegação-->
+				<h3>Manu</h3>
+				<ul> <!-- lista de links não orenada -->
+					
+					<li><a href="./homepage.html">Pagina Inicial</a></li>	
+				</ul>
+			</nav>
+
+			<article > <!-- Artigo -->
+				
+				
+				<form method="post">
+						<center><h2>Preencha os campos abaixo</h2></center> 
+
+					<div> <!-- distancia qualquer elemento-->
+					<label for="Nome">Nome</label><br> <!--identificação do campo, atributo for relaciona o label com o input <br> quebra de linha-->
+					<input type="text" name="Nome" id="Nome" placeholder="Digite seu nome"> <!--Placeholder para aparecer escrito no campo-->
+					</div>
+
+					<div>
+					<label for="E-mail">E-mail</label><br>
+					<input type="text" name="E-mail" id="E-mail" placeholder="Digite seu E-mail">
+					</div>
+
+					<div>
+					<label for="Mensagem">Mensagem</label><br>
+					<textarea type="text" name="Mensagem" id="Mensagem" rows="5"></textarea> <!--Rows = quantas linha o usuario pode digitar-->
+					</div>
+
+					<div>
+						<label class="escolha" >Que time que você torce</label>
+						<input type="radio" name="time" value="São Paulo">São Paulo
+						<input type="radio" name="time" value="Corinthians">Corinthians
+						<input type="radio" name="time" value="Palmeiras">Palmeiras
+						<input type="radio" name="time" value="Santos">Santos
+
+					</div>
+
+					<div>
+						<label class="escolha">Quais times você não gosta?</label>
+						<input type="checkbox" name="time" value="São Paulo">São Paulo
+						<input type="checkbox" name="time" value="Corinthians">Corinthians
+						<input type="checkbox" name="time" value="Palmeiras">Palmeiras
+						<input type="checkbox" name="time" value="Santos">Santos
+					</div>
+
+					<div>
+						<label class="escolha">Qual é o seu sexo?</label>
+						<select>
+							<option value="Masculino">Masculino</option>
+							<option value="Feminino">Feminino</option>
+							<option value="Indefinido">Indefinido</option>
+						</select>
+
+					</div>
+
+					<div>
+						<center> <input type="submit"></center>
+
+					</div>
+
+				</form>
+
+			</article>	
+
+		</section>	
+	
+
+	<footer> <!-- Roda Pé-->
+		
+		<center>  Desenvolvido por Lucas Maia.</center>
+
+	</footer>
+
+</body>
+</html>

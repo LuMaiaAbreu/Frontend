@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  <!--Adequa o Layout as margens do celular -->
+	<title>Aritgo</title>
+</head>
+<body>
+
+	<header>  <!-- utlizado dentro do body, para demarcar cabeçalho -->
+		
+		<h2>Fale conosco</h2>
+
+	<section>
+	
+	 	<nav> <!-- navegação-->
+			
+			<ul> <!-- lista de links não orenada -->
+				<li><a href="Pagina Inicial">Pagina Inicial</a></li>	
+				<li><a href="Contatos">Contatos</a></li>
+				<li> <a href="Sobre">Sobre</a></li>	
+			</ul>
+		</nav>
+
+		<article> <!-- Artigo -->
+			
+			<h1>Preencha os campos abaixo</h1>
+
+			<form method="post">
+
+			<div> <!-- distancia qualquer elemento-->
+			<label for="Nome">Nome</label><br> <!--identificação do campo, atributo for relaciona o label com o input <br> quebra de linha-->
+			<input type="text" name="Nome" id="Nome" placeholder="Digite seu nome"> <!--Placeholder para aparecer escrito no campo-->
+			</div>
+
+			<div>
+			<label for="E-mail">E-mail</label><br>
+			<input type="text" name="E-mail" id="E-mail" placeholder="Digite seu E-mail">
+			</div>
+
+			<div>
+			<label for="Mensagem">Mensagem</label><br>
+			<textarea name="Mensagem" id="Mensagem" rows="5"></textarea> <!--Rows = quantas linha o usuario pode digitar-->
+			</div>
+
+			<div>
+				<p><label>Que time que você torce</label>
+				<input type="radio" name="time" value="São Paulo">São Paulo
+				<input type="radio" name="time" value="Corinthians">Corinthians
+				<input type="radio" name="time" value="Palmeiras">Palmeiras
+				<input type="radio" name="time" value="Santos">Santos</p>
+
+			</div>
+
+			<div>
+				<p><label>Quais times você odeia?</label>
+				<input type="checkbox" name="time" value="São Paulo">São Paulo
+				<input type="checkbox" name="time" value="Corinthians">Corinthians
+				<input type="checkbox" name="time" value="Palmeiras">Palmeiras
+				<input type="checkbox" name="time" value="Santos">Santos</p>
+
+			</div>
+
+			<div>
+				<p> <label>Qual é o seu sexo?</label>
+				<select>
+					<option value="Masculino">Masculino</option>
+					<option value="Feminino">Feminino</option>
+					<option value="Indefinido">Indefinido</option>
+				</select></p>
+
+			</div>
+
+			<div>
+				<input type="submit">
+
+			</div>
+
+			</form>
+
+		</article>
+
+	</section>	
+
+	<footer> <!-- Roda Pé-->
+		
+		<p>Desenvolvido por Lucas Maia.</p>
+
+	</footer>
+
+	</header>
+
+</body>
+</html>

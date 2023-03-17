@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<!--INFORMAÇÕES -->
+			<title>Html Formatação de Texto </title>
+			<meta charset="UTF-8">
+	</head>
+	<body>
+		<!-- conteudo reinderizado na tela -->
+			<h1> Formatação de texto </h1>
+
+			<p>Lorem ipsum dolor sit amet. Ea quia magni qui molestiae incidunt et perspiciatis nihil qui illo explicabo et quaerat galisum ut laudantium aperiam id odio quaerat. Ad expedita reprehenderit ut iusto iste aut mollitia tempore aut repellendus earum ut delectus exercitationem.</p>
+			
+			<p>In molestiae esse quo porro doloribus ut velit quas ut vitae dolores quo quidem recusandae eum dolor amet in quam rerum. Et corrupti recusandae At consequatur blanditiis est blanditiis officiis id quis ipsum id nulla blanditiis.</p>
+			
+			<p>Et ipsam tempora et iste sint et omnis explicabo aut esse earum et perferendis soluta sed laudantium dolores ad amet eligendi. 33 culpa minima aut nobis laborum et numquam pariatur et recusandae saepe qui autem quibusdam. Eum inventore voluptas aut neque iste eos quaerat rerum. Ut sunt consequatur et corrupti minima et aperiam deserunt 33 soluta explicabo quo culpa assumenda.</p>
+			
+			
+	</body>
+
+</html>

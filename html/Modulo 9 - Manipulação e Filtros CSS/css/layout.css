@@ -1,0 +1,184 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* equivalente a 10px */
+  
+}
+
+img{
+  max-width: 100%;
+  float: center;
+
+  
+}
+
+body {
+	background-color: black;
+}
+
+
+
+h1 {
+	font-size: 10rem;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+	font-size: 1.8rem;
+  color: white;
+  margin-top: 20px;
+}
+
+form {
+	background: #eee;
+	padding: 10px;
+}
+
+form div {
+	background: red;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66F;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+header {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:white;
+}
+
+nav {
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  background-color:black;
+  
+  float: left;
+  padding: 20px;
+  width: 100%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.coluna{
+  display: block;
+  width: 33.3%;
+  float: left;
+  padding: 5px;
+ 
+
+}
+
+.colunaB{
+  display: block;
+  width: 50%;
+  float: left;
+  padding: 0px;
+ 
+}
+
+.coluna-3{
+
+  columns: 100px 3;
+  width: 100%;
+}
+
+.coluna-2{
+
+  columns: 100px 2;
+  width: 50%;
+}
+
+@media(max-width:425px)
+{
+  nav,
+  article, 
+  .colunaB{
+    width: 100%;
+    min-width: 320px;
+    
+  }
+  
+}
+
+@media(max-width:768px){
+  nav{
+    width: 100%;
+  }
+  .coluna{
+width: 100%;
+  }
+}
+
+p {
+  color: white;
+  text-align: center;
+  text-justify: auto;
+  margin: 10px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+}
+
+a{
+  color: white;
+}
+
+#artigo-1{
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}

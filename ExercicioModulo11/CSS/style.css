@@ -1,0 +1,161 @@
+
+
+body{
+    font-size: 62.5%;
+    background-color: white;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+h2{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+header{
+
+    background-color: white;
+    display: block;
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 2px black;
+
+}
+
+section{
+   background-color: rgb(235, 235, 235);
+    display: block;
+    float: left;
+    width: 100%;
+
+}
+
+section nav{
+
+    background-color: rgb(235, 235, 235);
+    display: block;
+    float: left;
+    width: 15% ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+   
+    
+
+
+
+}
+
+section article{
+
+    background-color: rgb(235, 235, 235);
+    display: block;
+    width: 80%;
+    float: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    border-left: solid 3px white;
+
+
+}
+
+article img{
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: white;
+    display: block;
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 2px black;
+    text-align: center;
+  
+
+
+}
+
+footer p{
+    font-size: 0.7rem;
+}
+
+#Grafico-1{
+
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: block;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+#Grafico-1 img{
+
+    width: 105%;
+    height: 105%;
+}
+
+img{
+    width: auto;
+
+}
+
+.filtros{
+    filter: grayscale(100%);
+   
+   
+}
+
+.filtros:hover{
+    
+    filter: grayscale(0%);}
+
+.cognito{
+    height: 433px !important;
+    overflow: hidden !important;}
+
+article h1 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2rem;
+}
+
+
+
+        
+.cog-form__content {
+    background-color:  rgb(235, 235, 235) !important ;
+}       
+ 
+#cog-0-label {
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+}
+
+#cog-1-label {
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+}
+
+#cog-2-label {
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+}

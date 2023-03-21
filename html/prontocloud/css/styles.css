@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #f5fef5;
+    background-color: white;
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,9 +15,11 @@ body{
 }
 
 .container{
-    padding: 20px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
-    margin: 0 auto;
+
 }
 
 header{
@@ -29,6 +31,11 @@ header{
     padding-bottom: 20px;
     border-bottom: solid 1px #254159;
     }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
 
 h1{
     font-size: 2.4rem;
@@ -135,4 +142,18 @@ footer small{
     display: block;
     font-size: 80%;
 
+}
+
+.cog-branding__powered{
+    visibility: hidden !important ;
+}
+
+.cognito{
+    height: 390px !important;
+    overflow: hidden !important;
+}
+
+#tenho.interesse{
+    width: 100%;
+    background-color: #c5dbee;
 }

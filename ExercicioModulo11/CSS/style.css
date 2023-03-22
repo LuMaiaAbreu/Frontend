@@ -129,8 +129,9 @@ footer p{
     height: 105%;
 }
 
-img{
-    width: auto;
+article img {
+    width: 100%;
+    height: auto;
 
 }
 
@@ -170,4 +171,26 @@ article h1 p {
 
 #cog-2-label {
     font-family:Georgia, 'Times New Roman', Times, serif !important;
+}
+
+@media(max-width:1060px)
+{
+  nav,
+  article, 
+  .colunaB{
+    width: 100%;
+    min-width: 320px;
+    
+    
+  }
+  
+}
+
+@media(max-width:768px){
+  nav{
+    width: 100%;
+  }
+  .coluna{
+width: 100%;
+  }
 }

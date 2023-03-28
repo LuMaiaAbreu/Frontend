@@ -46,3 +46,9 @@ button:hover{
 .erro{
     border-color: red;
 }
+
+.mensagem{
+    text-align: center;
+    font-size: 1.6rem;
+    color: red;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+
+
+
+section{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+
+}
+
+input{
+    padding-bottom: 1rem;
+
+}
+
+
+
+
+.card{
+    width: 20%;
+    float: left;
+    margin: 10px;
+}

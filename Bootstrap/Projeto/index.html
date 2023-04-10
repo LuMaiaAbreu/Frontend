@@ -18,15 +18,15 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Logo</h1>
+                    <img width="200px" height="100px" src="./bootstrap/imagens/Wine.png" alt="">
                 </div>
                 <div class="col">
 
                        <ul class="nav justify-content-end">
                         <li class="nav-item"><a class="nav-link" href="">home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Produtos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Contatos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contatos</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,14 +39,26 @@
             <div class="row">
                 <div class="col-md-7 col-sm-12">
                     <h1>Sobre nós</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eligendi,
-                    laboriosam animi exercitationem facilis laborum. Quia neque minima quibusdam 
-                    consequuntur molestiae dicta tempore voluptas porro minus, recusandae cumque 
-                    nesciunt praesentium!</p>
-                    <a class="btn btn-lg btn-success">Botão</a>
+                    <p>Bem-vindo(a) à Wine Sempre, a sua loja online de vinhos de qualidade! Nós nos orgulhamos de 
+                    oferecer uma ampla seleção de vinhos finos de várias regiões do mundo. Nosso objetivo é oferecer
+                    uma experiência de compra fácil e agradável, com entrega rápida e excelente atendimento ao cliente.</p>
+
+                    <p> apaixonados por vinho e estamos sempre em busca de novos rótulos para adicionar ao nosso 
+                    catálogo. Selecionamos cuidadosamente cada vinho com base na qualidade, sabor e custo-benefício. 
+                    Temos vinhos para todos os gostos e orçamentos, desde vinhos clássicos e conhecidos até rótulos 
+                    exclusivos e raros.</p>
+                        
+                    <p>Além disso, oferecemos uma variedade de acessórios de vinho, incluindo taças, abridores de 
+                    garrafa, decantadores e muito mais. Nós acreditamos que um bom vinho é um momento especial e estamos 
+                    aqui para ajudá-lo(a) a tornar cada ocasião memorável.</p>
+                        
+                    <p>Obrigado(a) por escolher a Wine Sempre como sua loja de vinhos online. Se você tiver alguma 
+                    dúvida ou precisar de ajuda, nossa equipe de suporte ao cliente está à disposição para ajudá-lo(a).</p>
+
+                    
                 </div>  
                 <div class="col-md-5 col-sm12">
-                    <img src="./bootstrap/imagens/foto1.jpg" alt="imagem" class="img-fluid">
+                    <img src="./bootstrap/imagens/VinhoSobre.jpg" alt="imagem" class="img-fluid">
                 </div>
             </div>
         </div>              
@@ -58,45 +70,54 @@
                 <div class="col">
                     
                     
-                    <h2>produtos</h2>
+                    <h2>Produtos</h2>
 
                     <div class="card">
-                        <img src="./bootstrap/imagens/foto1.jpg" alt="imagem 2" class="img-fluid">
+                        <img src="./bootstrap/imagens/Miluna.jpg" alt="Miluna" class="img-fluid">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor </h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Animi ducimus omnis </p>
-                            <a class="btn btn-primary" href="produto-1">Ver produtos</a>
+                            <h5 class="card-title">Miluna</h5>
+                            <p class="card-text">Produzido pela renomada San Marzano, o Miluna Rosso é um dos rótulos deliciosos 
+                                de Puglia. Ele é feito num corte das uvas típicas da Puglia, a Malvasia Nera e Negroamaro, com a 
+                                uva mais emblemática da Toscana, a Sangiovese. O resultado é surpreendente! Não é preciso girar a 
+                                taça para sentir os exuberantes aromas de cerejas maduras e ameixas negras com pitadas de especiarias. </p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Valores</a>
                         </div>
                     </div>
 
                     <div class="card">
-                        <img src="./bootstrap/imagens/foto1.jpg" alt="imagem 2" class="img-fluid">
+                        <img src="./bootstrap/imagens/Julia.png" alt="JuliaFLorista" class="img-fluid">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor </h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Animi ducimus omnis </p>
-                            <a class="btn btn-primary" href="produto-2">Ver produtos</a>
+                            <h5 class="card-title">Julia Florista</h5>
+                            <p class="card-text">Júlia Florista (1883-1925): Florista e fadista espontânea 
+                            com uma natureza bairrista e festiva, cantava pelas ruas da velha Lisboa, em tascas 
+                            e nas casas aristocráticas. Apesar da sua curta vida deixou-nos em herança o “Espírito 
+                            do Fado” gravado em 2 discos. </p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Valores</a>
                         </div>
                     </div>
 
                     <div class="card">
-                        <img src="./bootstrap/imagens/foto1.jpg" alt="imagem 2" class="img-fluid">
+                        <img src="https://bebidasdosul.com.br/wine/6519-thickbox_default/vinho-abrasado-historic-blend-750ml.jpg" alt="Abrasado" class="img-fluid">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor </h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Animi ducimus omnis </p>
-                            <a  class="btn btn-primary"href="produto-3">Ver produtos</a>
+                            <h5 class="card-title">Abrasado</h5>
+                            <p class="card-text">Aromas que misturam frutas vermelhas e pretas, unidas com notas de 
+                            especiarias e madeira bem integradas. Em boca 
+                            vinho com grande corpo e persistência, fresco e profundo.
+
+                            </p>
+                            <a  class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-3">Ver Valores</a>
                         </div>
                     </div>
 
                     <div class="card">
-                        <img src="./bootstrap/imagens/foto1.jpg" alt="imagem 2" class="img-fluid">
+                        <img src="./bootstrap/imagens/Malma.jpg" alt="Malma" class="img-fluid">
                         <div class="card-body">
-                            <h5 class="card-title">Lorem, ipsum dolor </h5>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing 
-                            elit. Animi ducimus omnis </p>
-                            <a  class="btn btn-primary"href="produto-3">Ver produtos</a>
+                            <h5 class="card-title">Malma</h5>
+                            <p class="card-text">Na língua mapuche, Malma significa orgulho. Decidimos 
+                            chamar de "Finca La Papay" essa primeira geraçãode Malma em homenagem a uma 
+                            mulher visionária que, no começo do século XX, escolheu essas terras patagônicas
+                            para concretizar seus sonhos de família e prosperidade.</p>
+                            <a  class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-4">Ver Valores</a>
                         </div>
                     </div>
 
@@ -113,7 +134,7 @@
                     <h2>Contato</h2>
                     <p>Preencha os campos para receber maiores informações</p>
                 </div>
-                <div class="col-md-6 col-sm-12"">
+                <div class="col-md-6 col-sm-12">
 
                     <form class="form">
                         <div class="input-group">
@@ -130,7 +151,7 @@
 
 
                         <button type="submit" class="btn btn-lg btn-success">
-                            Solicitar Cotação
+                            Enviar
                         </button>
 
                     </form>
@@ -140,7 +161,187 @@
         </div>
     </section>
 
-    <script src=<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">   
+                    <h5 class="modal-title">Miluna</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" 
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">  
+                    <h6>Confira as Quantidades e Preços abaixo. </h6>
+                    <table class="table table-hover table-striped">
+                        
+                        <thead>
+                            <tr>
+                              <th>Quantidade </th>
+                              <th>Valor</th>
+                            </tr>
+                        
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1 unidade</td>
+                                <td>R$70,00</td>
+                            </tr>
+                            <tr>
+                                <td>6 unidades - 10% Desconto</td>
+                                <td>R$378,00</td>
+                            </tr>
+                            <tr>
+                                <td>12 unidades - 20% Desconto</td>
+                                <td>R$672,00</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" 
+                    data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">   
+                    <h5 class="modal-title">Julia Florista</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" 
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">  
+                    <h6>Confira as Quantidades e Preços abaixo. </h6>
+                    <table class="table table-hover table-striped">
+                        
+                        <thead>
+                            <tr>
+                              <th>Quantidade </th>
+                              <th>Valor</th>
+                            </tr>
+                        
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1 unidade</td>
+                                <td>R$41,90</td>
+                            </tr>
+                            <tr>
+                                <td>6 unidades - 10% Desconto</td>
+                                <td>R$226,26</td>
+                            </tr>
+                            <tr>
+                                <td>12 unidades - 20% Desconto</td>
+                                <td>R$402,24</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" 
+                    data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">   
+                    <h5 class="modal-title">Abrasado</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" 
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">  
+                    <h6>Confira as Quantidades e Preços abaixo. </h6>
+                    <table class="table table-hover table-striped">
+                        
+                        <thead>
+                            <tr>
+                              <th>Quantidade </th>
+                              <th>Valor</th>
+                            </tr>
+                        
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1 unidade</td>
+                                <td>R$107,40</td>
+                            </tr>
+                            <tr>
+                                <td>6 unidades - 10% Desconto</td>
+                                <td>R$579,96</td>
+                            </tr>
+                            <tr>
+                                <td>12 unidades - 20% Desconto</td>
+                                <td>R$1.031,04</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" 
+                    data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div> 
+
+    <div class="modal fade" id="modal-4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">   
+                    <h5 class="modal-title">Malma</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" 
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">  
+                    <h6>Confira as Quantidades e Preços abaixo. </h6>
+                    <table class="table table-hover table-striped">
+                        
+                        <thead>
+                            <tr>
+                              <th>Quantidade </th>
+                              <th>Valor</th>
+                            </tr>
+                        
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1 unidade</td>
+                                <td>R$92,90</td>
+                            </tr>
+                            <tr>
+                                <td>6 unidades - 10% Desconto</td>
+                                <td>R$501,66</td>
+                            </tr>
+                            <tr>
+                                <td>12 unidades - 20% Desconto</td>
+                                <td>R$891,84</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" 
+                    data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div> 
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>

@@ -1,7 +1,17 @@
-body{
-    background-color: bisque;
+html{
+    color: #A67C00;
 }
 
+
+body{
+    background-color: #703030;
+    color: #A67C00;
+}
+
+.nav-item{
+    color: #A67C00;
+    text-decoration: none;
+}
 
 
 section{
@@ -12,10 +22,15 @@ section{
 
 input{
     padding-bottom: 1rem;
-
+    margin-bottom: 10px;
 }
 
-
+.row p {
+    font-size: 1rem;
+}
+.row img{
+    margin-top: 60px;
+}
 
 
 .card{
@@ -23,3 +38,32 @@ input{
     float: left;
     margin: 10px;
 }
+
+.card-body{
+    width: 221.2px;
+    height: 336.4px;
+
+}
+
+.card img {
+  
+margin-top: 10px;
+   
+}
+
+.card p {
+    font-size: 0.7rem;
+   
+}
+
+.card .btn {
+    position: absolute;
+    bottom:16px;
+    left: 16px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+

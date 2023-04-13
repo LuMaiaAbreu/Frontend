@@ -10,7 +10,7 @@ body{
 
 .nav-item{
     color: #A67C00;
-    text-decoration: none;
+   
 }
 
 
@@ -25,6 +25,7 @@ input{
     margin-bottom: 10px;
 }
 
+
 .row p {
     font-size: 1rem;
 }
@@ -33,16 +34,11 @@ input{
 }
 
 
+
 .card{
     width: 20%;
     float: left;
     margin: 10px;
-}
-
-.card-body{
-    width: 221.2px;
-    height: 336.4px;
-
 }
 
 .card img {
@@ -56,14 +52,21 @@ margin-top: 10px;
    
 }
 
-.card .btn {
-    position: absolute;
-    bottom:16px;
-    left: 16px;
-  }
+.col-md-7.col-sm-12 
+{
+    width: 50%;
+}
 
-  button {
+.carousel
+{
+    width: 50%;
+}
+
+.btn{
     margin-top: 10px;
-  }
+}
 
-
+.form-check{
+    padding-left: 0;
+    margin-top: 10px;
+}

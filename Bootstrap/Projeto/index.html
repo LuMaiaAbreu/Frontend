@@ -17,49 +17,61 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <img width="200px" height="100px" src="./bootstrap/imagens/Wine.png" alt="">
-                </div>
+                
                 <div class="col">
 
-                       <ul class="nav justify-content-end">
+                    <ul class="nav justify-content-end">
                         <li class="nav-item"><a class="nav-link" href="">home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contato">Contatos</a></li>
                     </ul>
                 </div>
+                <div class="container"> 
+                    <div class="row">
+                        <div class="col">
+                            <img width="1116px"  src="./bootstrap/imagens/Wine.png" alt="">
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
     </header>
 
-
     <section id="sobre">  
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-7 col-sm-12" id="camposobre">
                     <h1>Sobre nós</h1>
                     <p>Bem-vindo(a) à Wine Sempre, a sua loja online de vinhos de qualidade! Nós nos orgulhamos de 
                     oferecer uma ampla seleção de vinhos finos de várias regiões do mundo. Nosso objetivo é oferecer
                     uma experiência de compra fácil e agradável, com entrega rápida e excelente atendimento ao cliente.</p>
 
-                    <p> apaixonados por vinho e estamos sempre em busca de novos rótulos para adicionar ao nosso 
+                    <p>Apaixonados por vinho e estamos sempre em busca de novos rótulos para adicionar ao nosso 
                     catálogo. Selecionamos cuidadosamente cada vinho com base na qualidade, sabor e custo-benefício. 
                     Temos vinhos para todos os gostos e orçamentos, desde vinhos clássicos e conhecidos até rótulos 
                     exclusivos e raros.</p>
-                        
-                    <p>Além disso, oferecemos uma variedade de acessórios de vinho, incluindo taças, abridores de 
-                    garrafa, decantadores e muito mais. Nós acreditamos que um bom vinho é um momento especial e estamos 
-                    aqui para ajudá-lo(a) a tornar cada ocasião memorável.</p>
-                        
-                    <p>Obrigado(a) por escolher a Wine Sempre como sua loja de vinhos online. Se você tiver alguma 
-                    dúvida ou precisar de ajuda, nossa equipe de suporte ao cliente está à disposição para ajudá-lo(a).</p>
-
                     
                 </div>  
-                <div class="col-md-5 col-sm12">
-                    <img src="./bootstrap/imagens/VinhoSobre.jpg" alt="imagem" class="img-fluid">
-                </div>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="ratio ratio-16x9">
+                                 <img src="./bootstrap/imagens/VinhoSobre.jpg" class="d-block w-100" alt="...">
+                                </div> 
+                            </div>
+                            <div class="carousel-item">
+                                <div class="ratio ratio-16x9">
+                                 <img src="./bootstrap/imagens/carrossel_enoturismo_2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                             </div>
+                             <div class="carousel-item">
+                                <div class="ratio ratio-16x9">
+                                   <img src="./bootstrap/imagens/vinhos.jpg" class="d-block w-100" alt="...">
+                                </div>
+                             </div>
+                    </div>
+                </div>  
             </div>
         </div>              
     </section>  
@@ -76,11 +88,28 @@
                         <img src="./bootstrap/imagens/Miluna.jpg" alt="Miluna" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Miluna</h5>
-                            <p class="card-text">Produzido pela renomada San Marzano, o Miluna Rosso é um dos rótulos deliciosos 
-                                de Puglia. Ele é feito num corte das uvas típicas da Puglia, a Malvasia Nera e Negroamaro, com a 
-                                uva mais emblemática da Toscana, a Sangiovese. O resultado é surpreendente! Não é preciso girar a 
-                                taça para sentir os exuberantes aromas de cerejas maduras e ameixas negras com pitadas de especiarias. </p>
-                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Valores</a>
+
+                            <div class="accordion" id="descriçãomiluna">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="descmiluna">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemiluna" aria-expanded="true" aria-controls="collapsemiluna">
+                                       Descrição
+                                     </button>
+                                    </h2>
+                                        <div id="collapsemiluna" class="accordion-collapse collapse " aria-labelledby="descmiluna" data-bs-parent="#descriçãomiluna">
+                                            <div class="accordion-body">
+                                                <p >Produzido pela renomada San Marzano, o Miluna Rosso é um dos rótulos deliciosos 
+                                                de Puglia. Ele é feito num corte das uvas típicas da Puglia, a Malvasia Nera e Negroamaro, com a 
+                                                uva mais emblemática da Toscana, a Sangiovese. O resultado é surpreendente! Não é preciso girar a 
+                                                taça para sentir os exuberantes aromas de cerejas maduras e ameixas negras com pitadas de especiarias. </p>
+                                            </div>
+                                        </div>
+                                </div>
+
+                            </div> 
+
+                            
+                            <div class="card-body"><a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Valores</a></div>
                         </div>
                     </div>
 
@@ -88,11 +117,28 @@
                         <img src="./bootstrap/imagens/Julia.png" alt="JuliaFLorista" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Julia Florista</h5>
-                            <p class="card-text">Júlia Florista (1883-1925): Florista e fadista espontânea 
-                            com uma natureza bairrista e festiva, cantava pelas ruas da velha Lisboa, em tascas 
-                            e nas casas aristocráticas. Apesar da sua curta vida deixou-nos em herança o “Espírito 
-                            do Fado” gravado em 2 discos. </p>
-                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Valores</a>
+
+                            <div class="accordion" id="descriçãojulia">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="descjulia">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      Descrição
+                                    </button>
+                                  </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="descjulia" data-bs-parent="#descriçãojulia">
+                                        <div class="accordion-body">
+                                            <p class="card-text">Júlia Florista (1883-1925): Florista e fadista espontânea 
+                                            com uma natureza bairrista e festiva, cantava pelas ruas da velha Lisboa, em tascas 
+                                            e nas casas aristocráticas. Apesar da sua curta vida deixou-nos em herança o “Espírito 
+                                            do Fado” gravado em 2 discos. </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div> 
+                            <div class="card-body"><a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Valores</a></div>
+
+                            
                         </div>
                     </div>
 
@@ -100,24 +146,64 @@
                         <img src="https://bebidasdosul.com.br/wine/6519-thickbox_default/vinho-abrasado-historic-blend-750ml.jpg" alt="Abrasado" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Abrasado</h5>
-                            <p class="card-text">Aromas que misturam frutas vermelhas e pretas, unidas com notas de 
-                            especiarias e madeira bem integradas. Em boca 
-                            vinho com grande corpo e persistência, fresco e profundo.
+                            
+                            <div class="accordion" id="descriçãoabrasado">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="descabrasado"></h2>
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseabrasado" aria-expanded="true" aria-controls="collapseabrasado">
+                                      Descrição
+                                    </button>
+                                  
+                                        <div id="collapseabrasado" class="accordion-collapse collapse" aria-labelledby="descabrasado" data-bs-parent="#descriçãoabrasado">
+                                            <div class="accordion-body">
+                                                <p>Aromas que misturam frutas vermelhas e pretas, unidas com notas de 
+                                                especiarias e madeira bem integradas. Em boca 
+                                                vinho com grande corpo e persistência, fresco e profundo.</p>
+                                             </div>
+                                        </div>
+                                </div>
 
-                            </p>
-                            <a  class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-3">Ver Valores</a>
+                            </div>
+
+                            <div class="card-body"><a  class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-3">Ver Valores</a></div>
+                            
                         </div>
+
+                        
                     </div>
+
+
 
                     <div class="card">
                         <img src="./bootstrap/imagens/Malma.jpg" alt="Malma" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">Malma</h5>
-                            <p class="card-text">Na língua mapuche, Malma significa orgulho. Decidimos 
-                            chamar de "Finca La Papay" essa primeira geraçãode Malma em homenagem a uma 
-                            mulher visionária que, no começo do século XX, escolheu essas terras patagônicas
-                            para concretizar seus sonhos de família e prosperidade.</p>
-                            <a  class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-4">Ver Valores</a>
+
+                            <div class="accordion" id="descriçãomalma">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="descmalma">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemalma" aria-expanded="true" aria-controls="collapsemalma">
+                                      Descrição
+                                    </button>
+                                  </h2>
+                                    <div id="collapsemalma" class="accordion-collapse collapse" aria-labelledby="descmalma" data-bs-parent="#descriçãomalma">
+                                        <div class="accordion-body">
+                                            <p class="card-text">Na língua mapuche, Malma significa orgulho. Decidimos 
+                                                chamar de "Finca La Papay" essa primeira geraçãode Malma em homenagem a uma 
+                                                mulher visionária que, no começo do século XX, escolheu essas terras patagônicas
+                                                para concretizar seus sonhos de família e prosperidade.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div> 
+                            <div class="card-body"><a  class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#modal-4">Ver Valores</a></div>
+
+                            
+                        </div>
+
+                            
+                            
                         </div>
                     </div>
 
@@ -132,7 +218,10 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <h2>Contato</h2>
+                    <p>Obrigado(a) por escolher a Wine Sempre como sua loja de vinhos online. Se você tiver alguma 
+                    dúvida ou precisar de ajuda, nossa equipe de suporte ao cliente está à disposição para ajudá-lo(a).</p>
                     <p>Preencha os campos para receber maiores informações</p>
+    
                 </div>
                 <div class="col-md-6 col-sm-12">
 
@@ -151,8 +240,9 @@
 
 
                         <button type="submit" class="btn btn-lg btn-success">
-                            Enviar
+                          <i class="fa-solid fa-envelope"></i> Enviar 
                         </button>
+                        <a name="cadastro" class="btn btn-lg btn-success" href="./cadastro.html" role="button"><i class="fa-regular fa-clipboard"></i> Cadastro</a>
 
                     </form>
 
@@ -339,9 +429,10 @@
         </div>
 
 
-    </div> 
+    </div>  
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/acef6bf331.js" crossorigin="anonymous"></script>
     
 </body>
 </html>

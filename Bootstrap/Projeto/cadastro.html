@@ -38,133 +38,137 @@
     <section id="contato">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12" >
                     <h2>Cadastro</h2>
                     <p>Preencha os campos para fazer seu Cadastro</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12" id="formulario">
 
-                    <form class="form">
+                        <form class="form">
 
-                        <div class="form-row">
-                            <div class="col">
-                                <label for="Nome">Nome Completo</label>
-                                <div class="input-group">   
-                                <input class="form-control" type="text" name="Nome" placeholder="Preencha seu nome" required>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="Nome">Nome Completo</label>
+                                    <div class="input-group">   
+                                    <input class="form-control" type="text" name="Nome" placeholder="Preencha seu nome" required>
 
-                            </div>
-                        </div>    
+                                </div>
+                            </div>    
 
-                        <div class="row">    
-                            <div class="col">
-                                <label for="E-mail">E-mail</label>
-                                <input class="form-control" type="text" name="E-mail" placeholder="Preencha seu E-mail" required>
-                            </div>
-                            <div class="col">      
-                                <label for="E-mail">Telefone</label>
-                                <input class="form-control" type="text" name="telefone" placeholder="Preencha seu telefone" required>
+                            <div class="row">    
+                                <div class="col">
+                                    <label for="E-mail">E-mail</label>
+                                    <input class="form-control" type="text" name="E-mail" placeholder="Preencha seu E-mail" required>
+                                </div>
+                                <div class="col">      
+                                    <label for="E-mail">Telefone</label>
+                                    <input class="form-control" type="text" name="telefone" placeholder="Preencha seu telefone" required>
 
-                            </div>
-                            
-
-                        </div>
-
-                        <div class="row">
-                            <div class="col">
-                                <label for="endereço">Endereço Completo</label>
-                                <input type="text" class="form-control" placeholder="Preencha seu endereço" id="endereço" required>
-                            </div>
-                            
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <label for="endereço">Bairro</label>
-                                <input type="text" class="form-control" placeholder="Preencha seu bairro" id="Bairro" required>
-                            </div>
-                            <div class="col">
-                                <label for="bairro">Complemento</label>
-                                <input type="text" class="form-control" placeholder="Complemento" id="complemento" required>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col">
-                                <label for="Cidade">Cidade</label>
-                                <input type="text" name="Cidade" id="Cidade" class="form-control">
-                            </div>
-                            <div class="col">
-                                <label for="estado">Estado</label>
-                                <select name="Estado" id="Estado" class="form-control">
-                                     <option value="">Selecione um Estado</option>
-                                     <option value="AC">AC</option>
-                                     <option value="AL">AL</option>
-                                     <option value="AM">AM</option>
-                                     <option value="BA">BA</option>
-                                     <option value="CE">CE</option>
-                                     <option value="DF">DF</option>
-                                     <option value="ES">ES</option>
-                                     <option value="GO">GO</option>
-                                     <option value="AM">MA</option>
-                                     <option value="MT">MT</option>
-                                     <option value="MS">MS</option>
-                                     <option value="MG">MG</option>
-                                     <option value="PA">PA</option>
-                                     <option value="PB">PB</option>
-                                     <option value="PR">PR</option>
-                                     <option value="PE">PE</option>
-                                     <option value="PI">PI</option>
-                                     <option value="RJ">RJ</option>
-                                     <option value="RN">RN</option>
-                                     <option value="RS">RS</option>
-                                     <option value="RO">RO</option>
-                                     <option value="RR">RR</option>
-                                     <option value="SC">SC</option>
-                                     <option value="SP">SP</option>
-                                     <option value="SE">SE</option>
-                                     <option value="TO">TO</option>
-
-                                </select>
+                                </div>
+                                
 
                             </div>
-                            <div class="col">
-                                <label for="CEP" >CEP</label>
-                                <input type="text" name="CEP" id="CEP" class="form-control">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col"></div>
-                                <div class="input group">
-                                <label for="info">informações</label>
-                                <textarea class="form-control"  name="informações" id="info" rows="5"></textarea>
-                        
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col">
-                               
-                                <div class="form-check">
-                                     <label for="promoções" class="form-check-label" >Aceito receber promoções</label>
-                                    <input type="checkbox" name="promoções" id="promoções">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="endereço">Endereço Completo</label>
+                                    <input type="text" class="form-control" placeholder="Preencha seu endereço" id="endereço" required>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="endereço">Bairro</label>
+                                    <input type="text" class="form-control" placeholder="Preencha seu bairro" id="Bairro" required>
+                                </div>
+                                <div class="col">
+                                    <label for="bairro">Complemento</label>
+                                    <input type="text" class="form-control" placeholder="Complemento" id="complemento" required>
                                 </div>
                             </div>
-                        </div>
-                        
 
-                        <button type="submit" class="btn btn-lg btn-success">
-                            Realizar Cadastro
-                        </button>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="Cidade">Cidade</label>
+                                    <input type="text" name="Cidade" id="Cidade" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <label for="estado">Estado</label>
+                                    <select name="Estado" id="Estado" class="form-control">
+                                        <option value="">Selecione um Estado</option>
+                                        <option value="AC">AC</option>
+                                        <option value="AL">AL</option>
+                                        <option value="AM">AM</option>
+                                        <option value="BA">BA</option>
+                                        <option value="CE">CE</option>
+                                        <option value="DF">DF</option>
+                                        <option value="ES">ES</option>
+                                        <option value="GO">GO</option>
+                                        <option value="AM">MA</option>
+                                        <option value="MT">MT</option>
+                                        <option value="MS">MS</option>
+                                        <option value="MG">MG</option>
+                                        <option value="PA">PA</option>
+                                        <option value="PB">PB</option>
+                                        <option value="PR">PR</option>
+                                        <option value="PE">PE</option>
+                                        <option value="PI">PI</option>
+                                        <option value="RJ">RJ</option>
+                                        <option value="RN">RN</option>
+                                        <option value="RS">RS</option>
+                                        <option value="RO">RO</option>
+                                        <option value="RR">RR</option>
+                                        <option value="SC">SC</option>
+                                        <option value="SP">SP</option>
+                                        <option value="SE">SE</option>
+                                        <option value="TO">TO</option>
 
-                    </form>
+                                    </select>
 
-                    <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se </a> para receber novidades </p>
+                                </div>
+                                <div class="col">
+                                    <label for="CEP" >CEP</label>
+                                    <input type="text" name="CEP" id="CEP" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col"></div>
+                                    <div class="input group">
+                                    <label for="info">informações</label>
+                                    <textarea class="form-control"  name="informações" id="info" rows="5"></textarea>
+                            
+                                </div>
+                            </div>
 
+                            <div class="row">
+                                <div class="col">
+                                
+                                    <div class="form-check">
+                                        <label for="promoções" class="form-check-label" >Aceito receber promoções</label>
+                                        <input type="checkbox" name="promoções" id="promoções">
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <button type="submit" class="btn btn-lg btn-success">
+                                Realizar Cadastro
+                            </button>
+
+                        </form>
+
+                        <p><a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se </a> para receber novidades </p>
+
+                    </div>
+                    
                 </div>
-                
+            <div class="imagemcad">
+                <img src="./bootstrap/imagens/CadastroIMG.jpg" alt="">
             </div>
-        
+                
+
+            </div>   
 
         </div>
     </section>

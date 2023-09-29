@@ -70,3 +70,13 @@ margin-top: 10px;
     padding-left: 0;
     margin-top: 10px;
 }
+
+.imagemcad{
+    float: right;
+    width: 50%;
+    margin-top: 15px;
+}
+
+#formulario{
+    width: 50%;
+}

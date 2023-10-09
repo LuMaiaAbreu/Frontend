@@ -13,52 +13,143 @@ $(document).ready(function(){
     console.log(titulos.first());
 
     
-
-    // Configuração de produtos
-    
    
 
     $('.featured-item a').addClass('btn btn-dark stretch-link');
+   
 
-    // $('.featured-item:first h4').start('<span class="badge bg-secondary">Novo</span>')
-    // $('.featured-item:first h4').html('<span class="badge bg-secondary">Novo</span>')
-    // $('.featured-item:first h4').addClass('active')
-    // $('.featured-item:first h4').removeClass('active')
-    // $('.featured-item:first h4').toggleClass('active')
-    // $('.featured-item:first h4').hide()
-    // $('.featured-item:first h4').show()
-    // $('.featured-item:first h4').fadeIn(2000)
-    // $('.featured-item:first h4').fadeOut()
-    //  $('.featured-item:first h4').css('color', '#f00')
-     
-     $('.featured-item h4').dblclick( function(){
+    $('.nav-modal-open').on('click', function(e){
 
-        $(this).css({
-            'color': '#f00',
-            'background': '#ff0',
-            'font-weight': '100',
+        e.preventDefault()
+
+        let elem = $(this).attr('rel');
+
+        $('.modal-body').html ($('#'+elem).html())
+        $('.modal-header h5.modal-title').html($(this).text())
+
+        let myModal = new bootstrap.Modal($('#modalId'))
+
+        myModal.show()
+
+    })
+
+    $(document).ready(function() {
+
+    
+        // Seleciona todos os botões com a classe "botao"
+        $(".comprar").click(function(e) {
+
+            e.preventDefault();
+
+          // Coloque sua lógica aqui para os botões
+          alert("Pagina em construção");
         });
+      });
 
-     });
+    
+   
 
-     /*
-      * Manipulação de eventos
-      */
-     $('.featured-item a').on('blur', function(event){
+    $('h6').append("25€")
+    $('h6').css({'color':'black'})
 
-        event.preventDefault();
 
-        alert('Produto esgotado');
 
-     })
-     
-     $()
-     
-     //alteração automatica de preço de todos os itens.
-     let price = document.querySelectorAll('h6')
-     for(let i=0 ; 1< price.length; i++){
-      price[i].textContent="25€"
-     }
+
+    $('body').on('submit','.modal-body .form', function(e){
+
+        e.preventDefault();
+
+        const inputnome = $('#nome')
+        const inputemail = $('#email')
+
+        if (inputnome.val() == ' '){
+
+            console.log('os campos obrigatórios estão vazios')
+            
+            inputnome.addClass('invalid')
+
+             return false
+
+        }
+
+        if (inputemail.val() == ' '){
+
+            console.log('os campos obrigatórios estão vazios')
+            inputemail.addClass('invalid')
+
+            return false
+
+        }
+
+    })
+
+
+    function validate(elem){
+        if(elem.val()==''){
+
+            console.log('o campo de '+ elem.attr('nome')+ 'é obrigatório')
+
+            elem.parent().find('.text-muted').show()
+
+            elem.addClass('invalid')
+
+            return false
+
+        } 
+
+        else
+        {elem.parent().find('.text-muted').hide()
+         elem.removeClass('invalid')
+        }
+    }
+
+
+
+    $('body').on('blur','#nome',function(){
+        validate($(this))
+    })
+
+
+    $('body').on('blur','#email',function(){
+        validate($(this))
+    })
+
+    $('body').on('focus','#date',function(){
+        $(this).datepicker();
+    })
+
+    $('body').on('blur','#date',function(){
+        validate($(this))
+        $('#date').mask('00/00/0000');
+    })
+
+    $('body').on('blur','#cep',function(){
+        validate($(this))
+        $('#cep').mask('00000-000');
+    })
+
+    $('body').on('blur','#phone',function(){
+        validate($(this))
+        $('#phone').mask('0000000-0000');
+    })
+
+    $('body').on('blur','#cpf',function(){
+        validate($(this))
+        $('#cpf').mask('000.000.000-00');
+    })
+
+    $('#date').mask('00/00/0000');
+    $('#time').mask('00:00:00');
+    $('#cep').mask('00000-000');
+    $('#phone').mask('0000-0000');
+    $('#cpf').mask('000.000.000-00');
+
+    /* Modal das camisas*/
+    
+    $('.featured-item').on('click',function(e){
+
+        elem
+    })
 
 
 

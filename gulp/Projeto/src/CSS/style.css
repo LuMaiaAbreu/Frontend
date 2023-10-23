@@ -671,6 +671,14 @@ a {
 }
 
 /* Responsive Style */
+
+@media (min-width: 992px){
+	#camisas2{
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+}
+
 @media (max-width: 991px) {
 
 	.banner {
@@ -724,6 +732,12 @@ a {
 	.contact-page {
 		margin-top: 0px;
 	}
+	#camisas2{
+		margin-left: 7%;
+		margin-right: 7%;
+		max-width: 100%;
+	}
+	
 
 }
 
@@ -736,7 +750,14 @@ a {
 		margin-top: 15px;
 		text-align: left;
 	} 
+	#camisas2{
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+	
 
+	
+	
 }
 
 .invalid {
@@ -753,9 +774,11 @@ a {
 	width: 50;
 }
 
-#camisas{
+.camisas{
+	display: flex;
 	width: 100%;
-	max-width: 720px;
-	margin-left: 350px;
+	max-width: 100%;
+	align-items: center !important;
 	border: #fff;
 }
+
